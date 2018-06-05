@@ -1,14 +1,19 @@
-﻿  MathLib.vcxproj -> D:\OneDrive - Academy of Interactive Entertainment\2018\Maths for Games\UnitTest\dependencies\x64\Debug\MathLib.lib
-  D:\OneDrive - Academy of Interactive Entertainment\2018\Maths for Games\UnitTest\MathLib\GenLib.h
+﻿  Vector3.cpp
+  Vector2.cpp
+  Matrix3.cpp
+  Matrix2.cpp
+  Generating Code...
+  MathLib.vcxproj -> C:\Users\ram.thiyagarajan\Documents\GitHub\Maths\UnitTest\dependencies\x64\Debug\MathLib.lib
+  C:\Users\ram.thiyagarajan\Documents\GitHub\Maths\UnitTest\MathLib\GenLib.h
   The system cannot find the path specified.
-  D:\OneDrive - Academy of Interactive Entertainment\2018\Maths for Games\UnitTest\MathLib\Matrix2.h
+  C:\Users\ram.thiyagarajan\Documents\GitHub\Maths\UnitTest\MathLib\Matrix2.h
   The system cannot find the path specified.
-  D:\OneDrive - Academy of Interactive Entertainment\2018\Maths for Games\UnitTest\MathLib\Matrix3.h
+  C:\Users\ram.thiyagarajan\Documents\GitHub\Maths\UnitTest\MathLib\Matrix3.h
   The system cannot find the path specified.
-  D:\OneDrive - Academy of Interactive Entertainment\2018\Maths for Games\UnitTest\MathLib\Vector2.h
+  C:\Users\ram.thiyagarajan\Documents\GitHub\Maths\UnitTest\MathLib\Vector2.h
   The system cannot find the path specified.
-  D:\OneDrive - Academy of Interactive Entertainment\2018\Maths for Games\UnitTest\MathLib\Vector3.h
+  C:\Users\ram.thiyagarajan\Documents\GitHub\Maths\UnitTest\MathLib\Vector3.h
   The system cannot find the path specified.
           0 file(s) copied.
-D:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\VC\VCTargets\Microsoft.CppCommon.targets(133,5): error MSB3073: The command "copy "D:\OneDrive - Academy of Interactive Entertainment\2018\Maths for Games\UnitTest\MathLib\*.h" "D:\OneDrive - Academy of Interactive Entertainment\2018\Maths for Games\UnitTest\dependencies\x64\Debug "
-D:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\VC\VCTargets\Microsoft.CppCommon.targets(133,5): error MSB3073: :VCEnd" exited with code 1.
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\VC\VCTargets\Microsoft.CppCommon.targets(133,5): error MSB3073: The command "copy "C:\Users\ram.thiyagarajan\Documents\GitHub\Maths\UnitTest\MathLib\*.h" "C:\Users\ram.thiyagarajan\Documents\GitHub\Maths\UnitTest\dependencies\x64\Debug "
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\VC\VCTargets\Microsoft.CppCommon.targets(133,5): error MSB3073: :VCEnd" exited with code 1.
