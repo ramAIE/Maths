@@ -27,6 +27,8 @@ public:
 	void MoveBackward(float a_amount);
 	float linearEase(float t, float b, float c, float d);
 	void CalcAABB();
+	
+
 	~Player();
 private:
 	aie::Texture*	m_texture;

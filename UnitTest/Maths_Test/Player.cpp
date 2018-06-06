@@ -57,10 +57,10 @@ void Player::update(float deltaTime, aie::Input * input)
 
 void Player::draw(aie::Renderer2D * renderer, aie::Application* app)
 {	
-	float t = fmod(app->getTime(), 3.0f);
-	float f = linearEase(t, 0.0f, 1.0f, 1.0f);
+	//float t = fmod(app->getTime(), 3.0f);
+	//float f = linearEase(t, 0.0f, 1.0f, 1.0f);
 
-	renderer->setRenderColour(f, 0, f);
+	//renderer->setRenderColour(f, 0, f);
 	renderer->drawSpriteTransformed3x3(m_texture, (float*)m_world);
 	renderer->drawLine(m_AABB.min.m_x, m_AABB.min.m_y, m_AABB.min.m_x, m_AABB.max.m_y);
 	renderer->drawLine(m_AABB.min.m_x, m_AABB.max.m_y, m_AABB.max.m_x, m_AABB.max.m_y);
@@ -116,7 +116,7 @@ void Player::CalcAABB()
 					Vector3((w / 2), -(h / 2), 1) };
 
 	m_AABB.min = Vector2(INT16_MAX, INT16_MAX);
-	m_AABB.max = Vector2(-INT16_MAX, -INT16_MAX);
+	m_AABB.max = Vector2(INT16_MIN, INT16_MIN);
 
 	for (int i = 0; i < 4; ++i)
 	{

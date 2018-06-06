@@ -56,6 +56,11 @@ void Vector2::normalise()
 	m_y /= m;
 }
 
+float Vector2::dot(const Vector2 & other)
+{
+	return m_x * other.m_x + m_y * other.m_y;
+}
+
 
 Vector2::~Vector2()
 {
