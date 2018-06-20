@@ -106,7 +106,7 @@ void Maths_TestApp::draw() {
 bool Maths_TestApp::CollisionCheck(Vector2 AABBmin, Vector2 AABBmax, Vector2 sphereCenter, double sphereRad)
 {
 	Vector2 closesPoint = clamp(sphereCenter, AABBmin, AABBmax);
-	auto diff = sphereCenter - closesPoint;
+	Vector2 diff = sphereCenter - closesPoint;
 	return diff.dot(diff) <= (sphereRad * sphereRad);
 }
 
